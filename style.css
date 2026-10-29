@@ -1066,17 +1066,98 @@ textarea:focus-visible {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
   }
-  @media (max-width:768px){
-    .photo-frame{
-      max-width: 280px;
-      aspect-ratio: 3/4;
-    }
-    .photo-img{
-      object-position: center top;
-    }
-  }
 }
 
-.img-placeholder {
-  display: none;
+/* =========================================================
+   PERBAIKAN TAMPILAN HP
+   ========================================================= */
+
+@media screen and (max-width: 720px) {
+
+  /* Navbar HP */
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  /* Hero menjadi satu kolom */
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* FOTO DI ATAS TULISAN */
+  .hero-photo {
+    order: -1;
+    width: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .photo-frame {
+    width: 260px;
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+
+  /* Judul tidak terlalu besar di HP */
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  /* Tombol */
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Identitas */
+  .identity-card {
+    width: 100%;
+  }
+
+  .identity-row {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .identity-row dt {
+    width: 100%;
+  }
+
+  .identity-row dd {
+    width: 100%;
+  }
+
+  /* Project */
+  .project-grid {
+    flex-direction: column;
+  }
+
+  .project-card,
+  .project-card-wide,
+  .project-card-portrait {
+    width: 100%;
+    max-width: 100%;
+  }
+
 }
