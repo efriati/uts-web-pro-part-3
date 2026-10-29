@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio mahasiswa Efriati Annisa Hakim - Make-up Wedding dan Bisnis Digital">
+  <title>Portofolio Efriati Annisa Hakim | Make-up Wedding</title>
+
+  <!-- Font dari Google Fonts (butuh internet). Jika offline, font cadangan otomatis dipakai. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVBAR ===================== -->
+  <header id="navbar" class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-text">Efriati A. H.</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+        <li><a href="#skill" class="nav-link">Skill</a></li>
+        <li><a href="#project" class="nav-link">Project</a></li>
+        <li><a href="#kontak" class="nav-link">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HOME ===================== -->
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+
+        <div class="hero-text">
+          <p class="eyebrow">Portofolio Mahasiswa · Make-up Art &amp; Wedding</p>
+          <h1 class="hero-title">Seni Rias yang Menyempurnakan Hari Istimewa</h1>
+          <p class="hero-subtitle">
+            Portofolio bisnis jasa make-up wedding yang memadukan kreativitas,
+            hasil make-up yang elegan, dan pengembangan bisnis di era digital.
+          </p>
+
+          <ul class="hero-chips">
+            <li>Kreativitas</li>
+            <li>Hasil Make-up</li>
+            <li>Pengembangan Bisnis</li>
+          </ul>
+
+          <div class="identity-card">
+            <dl class="identity-list">
+              <div class="identity-row">
+                <dt>Nama Lengkap</dt>
+                <dd id="profile-name">Efriati Annisa Hakim</dd>
+              </div>
+              <div class="identity-row">
+                <dt>NIM</dt>
+                <dd>40425050</dd>
+              </div>
+              <div class="identity-row">
+                <dt>Program Studi</dt>
+                <dd>Bisnis Digital</dd>
+              </div>
+              <div class="identity-row">
+                <dt>Universitas</dt>
+                <dd>UIN K.H. Abdurrahman Wahid Pekalongan</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#project" class="btn btn-primary">Lihat Project</a>
+            <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <!--
+            FOTO PROFIL:
+            Simpan foto Anda di folder "images" dengan nama: foto-profil.jpg
+            (atau ubah nilai src di bawah ini sesuai nama file Anda).
+          -->
+          <div class="photo-frame" id="profile-photo-frame">
+            <div class="img-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">✿</span>
+              <span class="placeholder-title">Foto Profil</span>
+              <span class="placeholder-hint">Simpan foto di<br><code>images/foto-profil.jpg</code></span>
+            </div>
+            <img src="./foto-profil1.png" alt="Foto profil Efriati Annisa Hakim" class="photo-img">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== TENTANG ===================== -->
+    <section id="tentang" class="section about">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Mengenal Saya</p>
+          <h2 class="section-title">Tentang</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </div>
+
+        <div class="about-card">
+          <p>
+            Halo, saya Efriati Annisa Hakim, mahasiswa Program Studi Bisnis Digital
+            angkatan 2025 di UIN K.H. Abdurrahman Wahid Pekalongan. Saya tertarik pada
+            dunia bisnis, kreativitas seni melalui make-up, pemasaran digital, dan
+            pengembangan usaha melalui teknologi. Melalui website portofolio ini, saya
+            ingin memperkenalkan minat saya di bidang make-up wedding sekaligus belajar
+            mengemasnya dalam bentuk bisnis jasa yang rapi dan menarik di dunia digital.
+          </p>
+        </div>
+
+        <h3 class="subheading">Riwayat Pendidikan</h3>
+
+        <div class="table-wrap">
+          <table class="edu-table">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Jenjang</th>
+                <th scope="col">Nama Institusi</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="No">1</td>
+                <td data-label="Jenjang">SD</td>
+                <td data-label="Nama Institusi">SD Negeri Kramatsari 1</td>
+                <td data-label="Keterangan">2012-2018</td>
+              </tr>
+              <tr>
+                <td data-label="No">2</td>
+                <td data-label="Jenjang">SMP</td>
+                <td data-label="Nama Institusi">SMP Negeri 2 Pekalongan</td>
+                <td data-label="Keterangan">2018-2021</td>
+              </tr>
+              <tr>
+                <td data-label="No">3</td>
+                <td data-label="Jenjang">SMK</td>
+                <td data-label="Nama Institusi">SMK Negeri 2 Pekalongan</td>
+                <td data-label="Keterangan">2021-2024</td>
+              </tr>
+              <tr>
+                <td data-label="No">4</td>
+                <td data-label="Jenjang">Perguruan Tinggi</td>
+                <td data-label="Nama Institusi">UIN K.H. Abdurrahman Wahid Pekalongan</td>
+                <td data-label="Keterangan">2025-Sekarang</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILL ===================== -->
+    <section id="skill" class="section skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Keahlian Make-up</p>
+          <h2 class="section-title">Skill</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </div>
+
+        <!--
+          UBAH PERSENTASE:
+          Ganti angka pada atribut data-level di setiap <li> (0 - 100).
+          Progress bar dan teks persentase akan menyesuaikan otomatis.
+        -->
+        <ul id="skill-list" class="skill-list">
+          <li class="skill-item" data-level="90">
+            <div class="skill-head">
+              <span class="skill-name"><span class="skill-icon" aria-hidden="true">♡</span>Make-up Wedding</span>
+              <span class="skill-percent"></span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Make-up Wedding" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+              <div class="progress-fill"></div>
+            </div>
+          </li>
+
+          <li class="skill-item" data-level="85">
+            <div class="skill-head">
+              <span class="skill-name"><span class="skill-icon" aria-hidden="true">✦</span>Make-up Engagement</span>
+              <span class="skill-percent"></span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Make-up Engagement" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+              <div class="progress-fill"></div>
+            </div>
+          </li>
+
+          <li class="skill-item" data-level="85">
+            <div class="skill-head">
+              <span class="skill-name"><span class="skill-icon" aria-hidden="true">❀</span>Make-up Prewedding</span>
+              <span class="skill-percent"></span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Make-up Prewedding" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+              <div class="progress-fill"></div>
+            </div>
+          </li>
+
+          <li class="skill-item" data-level="80">
+            <div class="skill-head">
+              <span class="skill-name"><span class="skill-icon" aria-hidden="true">✿</span>Graduation</span>
+              <span class="skill-percent"></span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Graduation" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+              <div class="progress-fill"></div>
+            </div>
+          </li>
+
+          <li class="skill-item" data-level="75">
+            <div class="skill-head">
+              <span class="skill-name"><span class="skill-icon" aria-hidden="true">✧</span>Art Makeup</span>
+              <span class="skill-percent"></span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Art Makeup" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">
+              <div class="progress-fill"></div>
+            </div>
+          </li>
+        </ul>
+
+        <p class="skill-note">Presentase menunjukkan tingkat kemampuan dan pengalaman dalam setiap jenis make-up.</p>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECT ===================== -->
+    <section id="project" class="section projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Karya &amp; Proyek</p>
+          <h2 class="section-title">Project</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- PROJECT 1 -->
+          <article class="project-card project-card-wide" id="project-1">
+            <!--
+              GAMBAR PROJECT 1:
+              Simpan gambar di folder "images" dengan nama: project-1-wedding.jpg
+              Disarankan gambar landscape (rasio sekitar 16:10).
+            -->
+            <div class="project-media media-landscape">
+              <div class="img-placeholder">
+                <span class="placeholder-icon" aria-hidden="true">✿</span>
+                <span class="placeholder-title">Gambar Project 1</span>
+                <span class="placeholder-hint">Simpan gambar di<br><code>images/project-1-wedding.jpg</code></span>
+              </div>
+              <img src="Screenshot 2026-10-28 134246.png" alt="Tampilan project Website Jasa Make-up Wedding" class="project-img">
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Website Jasa Make-up Wedding</h3>
+              <p class="project-desc">
+                Proyek website bertema make-up wedding yang menampilkan hasil make-up
+                yang bagus, terpercaya, dan memiliki budget yang terjangkau.
+              </p>
+              <div class="project-links">
+                <!--
+                  TAUTAN GITHUB PROJECT 1:
+                  1) Ganti href="#" dengan URL repository Anda, contoh:
+                     href="https://github.com/username-anda/nama-repository"
+                  2) Hapus atribut data-placeholder="true"
+                  3) Ubah teks tombol menjadi "Lihat di GitHub"
+                -->
+                <a href="https://efriati.github.io/uts-web-pro-part-3/" class="btn btn-outline btn-small project-link target="_bgitlank" rel="noopener noreferrer" >Lihat Website</a>
+                <span class="link-hint" aria-live="polite"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card project-card-portrait" id="project-2">
+            <!--
+              GAMBAR PROJECT 2 (PORTRAIT A4, rasio sekitar 1 : 1,414):
+              Simpan gambar di folder "images" dengan nama: project-2-bakery-a4.jpg
+              Gunakan desain berukuran portrait A4 (misalnya 2480 x 3508 px).
+            -->
+            <div class="project-media media-a4">
+              <div class="img-placeholder">
+                <span class="placeholder-icon" aria-hidden="true">✿</span>
+                <span class="placeholder-title">Gambar Project 2</span>
+                <span class="placeholder-hint">Portrait A4<br><code>images/project-2-bakery-a4.jpg</code></span>
+              </div>
+              <img src="Beige and White Elegant Wedding Packages Poster.png" alt="Desain promosi wedding packages berukuran portrait A4" class="project-img">
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Desain Promosi wedding packages</h3>
+              <p class="project-desc">
+                Proyek desain promosi digital untuk menampilkan make-up dan wedding packages 
+                melalui visual yang menarik dan sesuai dengan identitas make-up art.
+              </p>
+              <div class="project-links">
+                <!--
+                  TAUTAN GITHUB PROJECT 2 (cara mengisinya sama seperti Project 1)
+                -->
+                <a href="Beige and White Elegant Wedding Packages Poster.png" class="btn btn-outline btn-small " target="_blank">Lihat Project</a>
+                <span class="link-hint" aria-live="polite"></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== KONTAK ===================== -->
+    <section id="kontak" class="section contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Mari Terhubung</p>
+          <h2 class="section-title">Kontak</h2>
+          <span class="divider" aria-hidden="true"></span>
+        </div>
+
+        <div class="contact-wrap">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="input-nama">Nama</label>
+              <input type="text" id="input-nama" name="nama" placeholder="Masukkan nama Anda" autocomplete="name">
+              <span class="error-text" id="error-nama" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="input-email">Email</label>
+              <input type="email" id="input-email" name="email" placeholder="contoh@email.com" autocomplete="email">
+              <span class="error-text" id="error-email" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="input-pesan">Pesan</label>
+              <textarea id="input-pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini"></textarea>
+              <span class="error-text" id="error-pesan" role="alert"></span>
+            </div>
+
+            <p id="form-status" class="form-status" hidden></p>
+
+            <button type="submit" class="btn btn-primary btn-submit">Kirim</button>
+          </form>
+
+          <!-- Data form tampil di bawah form setelah berhasil dikirim -->
+          <div id="form-result" class="form-result" hidden aria-live="polite">
+            <p id="success-message" class="success-message"></p>
+            <h3 class="result-title">Data yang Anda kirim</h3>
+            <dl class="result-list">
+              <div class="result-row">
+                <dt>Nama</dt>
+                <dd id="result-nama"></dd>
+              </div>
+              <div class="result-row">
+                <dt>Email</dt>
+                <dd id="result-email"></dd>
+              </div>
+              <div class="result-row">
+                <dt>Pesan</dt>
+                <dd id="result-pesan"></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="footer" class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Efriati Annisa Hakim</p>
+      <p>Program Studi Bisnis Digital</p>
+      <p>UIN K.H. Abdurrahman Wahid Pekalongan</p>
+      <p class="footer-year">&copy; Tahun 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
